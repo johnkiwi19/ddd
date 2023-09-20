@@ -16,8 +16,9 @@ git init
 - git config --global alias.ci commit
 - git config --global alias.st status
 - git config --global alias.br branch
-- git config --global alias.lg 'log –pretty=oneline'
-- git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph –date=short"
+- git config --global alias.log1 'log –pretty=oneline'
+- git config --global alias.log2 "log --pretty=format:'%h %ad | %s%d [%an]' --graph –date=short"
+- git config --gloabl alias.log1 'log --pretty=format:\"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\"'
 - git config --global core.editor nvim
 - git config –list
 
@@ -28,7 +29,7 @@ git init
 - alias a=' git add '
 - alias aa='git add -A '
 - alias ra="git rm --cached '*'"
-- alias r="git rm --cached "
+- alias r=" git rm --cached "
 - alias rh='clear;echo "git reset HEAD -- ";git reset HEAD -- '
 - alias r='clear;echo "git reset";git reset '
 - alias l=' clear ; echo "git log ";git log -1'
