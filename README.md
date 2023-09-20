@@ -39,5 +39,5 @@ git init
 - alias d="clear&&printf 'git Diff \n\n'&&git diff
 - alias d='git diff'
 - alias c="git commit"
-- alais p="git push"
+- alias p="git push"
 
