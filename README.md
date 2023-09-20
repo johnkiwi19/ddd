@@ -38,6 +38,6 @@ git init
 - alias lk='clear;git log "--pretty=format:\"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\""'
 - alias d="clear&&printf 'git Diff \n\n'&&git diff
 - alias d='git diff'
-
-
+- alias c="git commit"
+- alais p="git push"
 
