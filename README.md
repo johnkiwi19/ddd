@@ -19,6 +19,7 @@ git init
 - git config --global alias.br branch
 - git config --global alias.lg 'log –pretty=oneline'
 - git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph –date=short"
+- git config --global core.editor nvim
 - git config –list
 
 
