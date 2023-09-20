@@ -25,8 +25,8 @@ git init
 
 ## Add Linux aliases 
 - alias s='clear;echo "git status";git status '
-- alias a='git add '
-- alias aa='git   add -A '
+- alias a=' git add '
+- alias aa='git add -A '
 - alias ra="git rm --cached '*'"
 - alias r="git rm --cached "
 - alias rh='clear;echo "git reset HEAD -- ";git reset HEAD -- '
