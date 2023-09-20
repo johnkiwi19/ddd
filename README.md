@@ -28,17 +28,14 @@ git init
 - alias s='clear;echo "git status";git status '
 - alias a='git add '
 - alias aa='git   add -A '
-
 - alias ra="git rm --cached '*'"
 - alias r="git rm --cached "
 - alias rh='clear;echo "git reset HEAD -- ";git reset HEAD -- '
 - alias r='clear;echo "git reset";git reset '
-
 - alias l='clear ; echo "git log ";git log -1'
 - alias ll='clear ; echo "git log ";git log -2'
 - alias la='clear ; echo "git log All";git log'
 - alias lk='clear;git log "--pretty=format:\"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\""'
-
 - alias d="clear&&printf 'git Diff \n\n'&&git diff
 - alias d='git diff'
 
