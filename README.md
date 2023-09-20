@@ -10,7 +10,6 @@ git init
 
 
 ## set up git vatabless
-- git config --list
 - git config --global user.email "john@john.org"
 - git config --global user.name  "John"
 - git config --global alias.co checkout
