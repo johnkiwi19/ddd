@@ -41,6 +41,6 @@ git init
 - alias d='git diff'
 - alias c="git commit"
 - alias p="git push"
-
+- alias cr='clear &&printf  "git config --list \n\n" && git config --list | grep rem'
 
 
