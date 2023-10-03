@@ -18,7 +18,8 @@ git init
 - git config --global alias.br branch
 - git config --global alias.log1 'log –pretty=oneline'
 - git config --global alias.log2 "log --pretty=format:'%h %ad | %s%d [%an]' --graph –date=short"
-- git config --gloabl alias.log3 'log --pretty=format:\"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\"'
+- git config --global alias.log3 'log --pretty=format:\"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\"'
+- git config --global alias.log4 'log --pretty=format:"%C(yellow)%h%Cred%d\ %Creset%s%Cblue\ [%cn]"
 - git config --global core.editor nvim
 - git config –list
 
