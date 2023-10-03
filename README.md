@@ -36,7 +36,7 @@ git init
 - alias ll='clear ; echo "git log ";git log -2'
 - alias la='clear ; echo "git log All";git log'
 - alias lk='clear ; git log "--pretty=format:\"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\"'
-- alias d="clear&&printf 'git Diff \n\n'&&git diff
+- alias d="clear&&printf 'git Diff \n\n'&&git diff"
 - alias d='git diff'
 - alias c="git commit"
 - alias p="git push"
