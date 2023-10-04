@@ -21,7 +21,7 @@ git init
 - git config --global alias.log3 'log --pretty=format:"%C(yellow)%h%Cred%d\ %Creset%s%Cblue\ [%cn]"'
 - git config --global alias.log4 'log --pretty=format:"%C(yellow)%h%Cred%d\ %Creset%s%Cblue\ [%cn]"
 - git config --global core.editor nvim
-- git config –list
+- git config –-list
 
 
 
