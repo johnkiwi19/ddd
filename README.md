@@ -10,8 +10,9 @@ git init
 
 
 ## set up git vatabless
-- git config --global user.email "john@john.org"
 - git config --global user.name  "John"
+- git config --global user.email "john@john.org"
+- git config --global core.editor nvim
 - git config --global alias.co checkout
 - git config --global alias.ci commit
 - git config --global alias.st status
@@ -20,7 +21,6 @@ git init
 - git config --global alias.log2 "log --pretty=format:'%h %ad | %s%d [%an]' --graph –date=short"
 - git config --global alias.log3 'log --pretty=format:"%C(yellow)%h%Cred%d\ %Creset%s%Cblue\ [%cn]"'
 - git config --global alias.log4 'log --pretty=format:"%C(yellow)%h%Cred%d\ %Creset%s%Cblue\ [%cn]"
-- git config --global core.editor nvim
 - git config –-list
 
 
@@ -42,5 +42,6 @@ git init
 - alias c="git commit"
 - alias p="git push"
 - alias cr='clear &&printf  "git config --list \n\n" && git config --list | grep rem'
+- alias ca='clear &&printf "git config --list  all \n\n" && git config --list '
 
 
